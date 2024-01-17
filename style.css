@@ -1,0 +1,1080 @@
+html,body{
+   height: 100%;
+   width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav_part2{
+    display: flex;
+    gap:40px;
+    align-items: center;
+}
+
+.nav-linkX{
+    text-decoration: none;
+    }
+.nav-link{
+    text-decoration: none;
+    }
+    .svg1{
+        width: 48px;
+        height: 56.008px;
+        flex-shrink: 0;
+        position: relative;
+        top:15px;
+        right: 10px;
+        }
+
+.nav > h1{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.nav > h1 > span{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.nav-linkX{
+    color: #FF5400;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.nav-link{
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.boxModel1{
+    width: 1170px;
+    height: 500px;
+    flex-shrink: 0;;
+   
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background: linear-gradient(180deg, hsla(240, 12%, 8%, 0.8) 0%, rgba(19, 19, 24, 0.00) 100%); 
+    background-image: url(./images/Group\ 13\ \(1\)\ \(1\).png);
+    margin: auto;  
+     
+}
+
+.boxModel1 > h1{
+    display: flex;
+    position: relative;
+    top:114px;
+    left:17px;
+    justify-content: center;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.boxModel1 > p{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:86px;
+    left:260px;
+
+    width: 676px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+.effects{
+    width:950px;
+    height: 80px;
+    border: 3px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    position: relative;
+    top: 109px;
+    left: 115px;
+}
+.buttonfeatures{
+    display: flex;
+    justify-content:center;
+    gap:10px;
+    align-items: center;
+    position: relative;
+    top:38px;
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0 30px 0 15px;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    border:none;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.box2{
+    position: relative;
+    padding:0 30px 0 15px;
+    left: 30px;
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border:none;
+    appearance: none;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+
+}
+
+.box4{
+    position: relative;
+    left: -15px;
+    top:0px;
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border:none;
+    background: #FF5400;
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.svg4{
+    position: relative;
+    left:50px;
+}
+.svg3{
+    position: relative;
+    top:2px;
+    left:-44px;
+}
+
+.allbutton{
+    position: relative;
+    top: -13px;
+}
+.svg2{
+  visibility: hidden;
+}
+
+/*=========Section2================= */
+.section2{
+    display:flex;
+    justify-content: center;
+    margin-top: 60px;
+    align-items: center;
+    position: relative;
+    gap:60px;
+}
+
+.read-more-btn{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    border:none;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    position: relative;
+    left:-5px;
+}
+
+.section2img{
+    width: 540px;
+    height: 550px;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+
+
+.section2Txt h1{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+.section2Txt p{
+    width: 577px;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+.section2 ul{
+    width: 525px;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+
+/*====================Section3======================== */
+.sub_section1 > h1{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 80px;
+}
+
+.sub-txt > p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+.photo-frame1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    position: relative;
+    gap:20px;
+    
+}
+
+.photo-frame2{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    position: relative;
+}
+
+.photo-frame3{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    position: relative;
+}
+.photo-txt{
+    position: absolute;
+    width: 643px;
+    top:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.photo-txt{
+    position: absolute;
+    width: 643px;
+    top:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.photo-txt1{
+    position: absolute;
+    width: 643px;
+    top:126px;
+    right: 600px;
+    display: flex;
+    align-items: center;
+
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.photo-txt2{
+    position: absolute;
+    width: 643px;
+    top:126px;
+    right:215px;
+    display: flex;
+    align-items: center;
+    
+
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.photo-txt3{
+    position: absolute;
+    width: 643px;
+    top:126px;
+    right:-238px;
+    display: flex;
+    align-items: center;
+
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.photo-txt4{
+    position: absolute;
+    width: 643px;
+    top:138px;
+    right:575px;
+    display: flex;
+    align-items: center;
+
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.photo-txt5{
+    position: absolute;
+    width: 643px;
+    top:138px;
+    right:0px;
+    display: flex;
+    align-items: center;
+
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+/* why chose us part */
+
+.card, .card2{
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:24px;
+}
+
+.card-partX, .card-partZ{
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+
+}
+
+.card-partY{
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+
+}
+
+.svg4{
+    position: relative;
+    top:25px;
+    left: 45px;
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+}
+
+.card-title > h2{
+    display: flex;
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.card-title{
+    padding: 28px 45px;
+
+}
+
+.card-title > p{
+    width: 486px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+/* ==================section 5=============== */
+
+.wallPic{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    margin: auto;
+    width: 1170px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: url(./images/Group\ 39.png), lightgray 50% / cover no-repeat;
+    margin-top: 30px;
+}
+.playcard{
+    width: 579px;
+    height: 389px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    position: relative;
+    left:-50px;
+}
+
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left:-17px;
+    
+}
+
+.card-header > h5{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.card-svg1{
+    position: absolute;
+    top:60px;
+    left:55px;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.card-svg2{
+    position: absolute;
+    top: 60px;
+    left:225px;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.card-svg3{
+    position: absolute;
+    top:60px;
+    left:345px;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.card-headtxt1{
+    position: relative;
+    top:35px;
+    left:84px;
+}
+.card-headtxt2{
+    position: relative;
+    top:35px;
+    left:-25px;
+}
+.card-headtxt3{
+    position: relative;
+    top:35px;
+    left:-140px;
+}
+
+.card-title > h3{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+/*================section 5 clone secton 6============ */
+.wallPic2{
+    display:flex ;
+    justify-content:flex-start;
+    align-items: center;
+    margin: auto;
+    width: 1170px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: url(./images/Group\ 40.png), lightgray 50% / cover no-repeat;
+    margin-top: 30px;
+}
+.playcard2{
+    width: 579px;
+    height: 389px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    position: relative;
+    left:55px;
+}
+
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left:-17px;
+    
+}
+
+.card-header > h5{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.card-svg1{
+    position: absolute;
+    top:60px;
+    left:55px;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.card-svg2{
+    position: absolute;
+    top: 60px;
+    left:225px;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.card-svg3{
+    position: absolute;
+    top:60px;
+    left:345px;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.card-headtxt1{
+    position: relative;
+    top:35px;
+    left:84px;
+}
+.card-headtxt2{
+    position: relative;
+    top:35px;
+    left:-25px;
+}
+.card-headtxt3{
+    position: relative;
+    top:35px;
+    left:-140px;
+}
+
+.card-title > h3{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+
+/* =======================section8====================*/
+.see-all-packages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border: none;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.photo-frame0{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    position: relative;
+}
+
+.photo-txt0{
+    position: absolute;
+    width: 643px;
+    top:168px;
+    right:16px;
+    display: flex;
+    align-items: center;
+    width: 532px;
+    
+
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.photo-perfect{
+    width: 610px;
+    height: 424px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+    background-image: url(./images/Group\ 40089.png);
+}
+
+.sub-section8{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap:60px;
+}
+
+.section8-txt{
+    position: relative;
+    left: 40px;
+}
+.section8-txt h1{
+    width: 518px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px; /* 150% */
+}
+
+.section8-txt p{
+    width: 532px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+.section8-txt ul{
+    width: 518px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+}
+
+
+.section9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+    margin-top: 30px;
+}
+
+.newsletter{
+    width: 474px;
+    height: 422px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 50px 50px;
+}
+
+.newsletter h3{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    line-height: 26px; /* 162.5% */
+    position: relative;
+    left:25px;
+}
+
+.newsletter p{
+    width: 350px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    position: relative;
+    left:25px;
+}
+
+.news_images{
+    width: 672px;
+    height: 422px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: url(./images/Rectangle\ 8\ \(1\).png), lightgray 50% / cover no-repeat;
+}
+
+
+.nameInp1{
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    position: relative;
+    left: 25px;
+    top:45px;
+    border: none;
+
+
+}
+.nameInp2{
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    position: relative;
+    left: 25px;
+    top:65px;
+    border: none;
+}
+
+.subscribe{
+    border-radius: 8px;
+    background: #FF5400;
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border: none;
+    position: relative;
+    left:26px;
+    top:100px;
+}
+
+.travel{
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FF5400;
+    position: relative;
+    left:338px;
+    top:225px;
+}
+
+.travel h3{
+    transform: rotate(-0.628deg);
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    top:26px;
+    left: -8px;
+}
+
+.travel h1{
+    transform: rotate(-0.628deg);
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    position: relative;
+    left:38px;
+    top:-16px;
+}
+
+
+.chose-us{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 1300px;
+    height: 502px;
+    flex-shrink: 0;
+    background: rgba(19, 19, 24, 0.05);
+}
+.social-icon{
+    width: 174.322px;
+    height: 24px;
+    flex-shrink: 0;
+    position: relative;
+    top:70px;
+    left:-564px;
+}
+
+.copyright{
+color: #131318;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+position: relative;
+top:176px;
+left:-565px;
+}
+
+
+.sub_section10 > h1{
+    position: relative;
+    top:-100px;
+    left:320px;
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.sub-txt10 > p{
+   
+    position: relative;
+    left:320px;
+    top:-84px;
+    margin: auto;
+    text-align: center;
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.lineX{
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    position: relative;
+    top:100px;
+    left: -234px;
+}
+/* ==============Responsive================== */ 
+@media (max-width:600px){
+
+    html,body{
+        height: 100%;
+        width: 100%;
+     }
+     
+     .main{
+         height: 100%;
+         width: 100%;
+         position: relative;
+     }
+    
+    .nav{
+        width: 375px;
+        height: 64px;
+        flex-shrink: 0;
+    }
+    .svg1{
+        width: 28.724px;
+        height: 33.516px;
+        flex-shrink: 0;
+        position: relative;
+        top:16px;
+        }
+    .nav-linkX{
+        text-decoration: none;
+        }
+    .nav-link{
+        text-decoration: none;
+        }
+
+        .nav_part2 > h4{
+            display:none;
+        }
+        .svg2{
+            visibility:visible;
+        }
+
+    .nav > h1{
+        color: #131318;
+        font-family: Mulish;
+        font-size: 21.543px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    
+    .nav > h1 > span{
+        color: #FF5400;
+        font-family: Mulish;
+        font-size: 21.543px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    
+    .nav-linkX{
+        color: #131318;
+        font-family: Mulish;
+        font-size: 21.543px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .nav-link{
+        color: var(--Dark-02, #424247);
+        text-align: center;
+        font-family: Mulish;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+}
