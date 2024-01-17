@@ -1001,6 +1001,49 @@ left:-565px;
     top:100px;
     left: -234px;
 }
+
+
+.about-us{
+    width: 100%;
+height: 600px;
+background-repeat: no-repeat;
+flex-shrink: 0;
+align-items: center;
+background-position: center;
+
+    background-image: URL(./images/about.jpg);
+    
+
+}
+.about{
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.about-1{
+  text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 100;
+line-height: normal;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* ==============Responsive================== */ 
 @media (max-width:600px){
 
